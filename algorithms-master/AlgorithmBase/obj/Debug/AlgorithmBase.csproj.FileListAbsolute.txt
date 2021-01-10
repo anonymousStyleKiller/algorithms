@@ -1,0 +1,10 @@
+F:\Anton\Work Anton\C#\Algorithms\SortAlgorithms\AlgorithmBase\bin\Debug\AlgorithmBase.dll
+F:\Anton\Work Anton\C#\Algorithms\SortAlgorithms\AlgorithmBase\bin\Debug\AlgorithmBase.pdb
+F:\Anton\Work Anton\C#\Algorithms\SortAlgorithms\AlgorithmBase\obj\Debug\AlgorithmBase.csprojResolveAssemblyReference.cache
+F:\Anton\Work Anton\C#\Algorithms\SortAlgorithms\AlgorithmBase\obj\Debug\AlgorithmBase.dll
+F:\Anton\Work Anton\C#\Algorithms\SortAlgorithms\AlgorithmBase\obj\Debug\AlgorithmBase.pdb
+F:\Anton\Work Anton\C#\Theory\Algorithms\algorithms-master\AlgorithmBase\bin\Debug\AlgorithmBase.dll
+F:\Anton\Work Anton\C#\Theory\Algorithms\algorithms-master\AlgorithmBase\bin\Debug\AlgorithmBase.pdb
+F:\Anton\Work Anton\C#\Theory\Algorithms\algorithms-master\AlgorithmBase\obj\Debug\AlgorithmBase.csprojResolveAssemblyReference.cache
+F:\Anton\Work Anton\C#\Theory\Algorithms\algorithms-master\AlgorithmBase\obj\Debug\AlgorithmBase.dll
+F:\Anton\Work Anton\C#\Theory\Algorithms\algorithms-master\AlgorithmBase\obj\Debug\AlgorithmBase.pdb
