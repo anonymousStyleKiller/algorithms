@@ -20,9 +20,9 @@ namespace AlgorithmTest
         public void Init()
         { 
             Items.Clear();
-            for (int i = 0; i < 1000; i++)
+            for (int i = 0; i < 10000; i++)
             {
-                Items.Add(rnd.Next(0, 100));
+                Items.Add(rnd.Next(0, 1000));
             }
             Sorted.Clear();
             Sorted.AddRange(Items.OrderBy(x => x).ToArray());
