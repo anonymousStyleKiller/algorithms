@@ -21,16 +21,14 @@ namespace AlgorithmBase
             }
         }
 
-        public TimeSpan Sort()
+        public void Sort()
         {
             var timer = new Stopwatch();
             SwapCount = 0;
-            
+
             timer.Start();
             MakeSort();
             timer.Stop();
-
-            return timer.Elapsed;
         }
 
         protected virtual void MakeSort()

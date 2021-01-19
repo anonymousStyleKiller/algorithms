@@ -3,5 +3,8 @@
   &lt;Or&gt;&#xD;
     &lt;ProjectFile&gt;09D87D45-83D1-4D5A-9AA7-F685020616D3/f:BubbleSortTests.cs&lt;/ProjectFile&gt;&#xD;
     &lt;ProjectFile&gt;09D87D45-83D1-4D5A-9AA7-F685020616D3/f:CocktailSortTest.cs&lt;/ProjectFile&gt;&#xD;
+    &lt;TestAncestor&gt;&#xD;
+      &lt;TestId&gt;NUnit3x::09D87D45-83D1-4D5A-9AA7-F685020616D3::.NETFramework,Version=v4.8::AlgorithmTest.SortTests&lt;/TestId&gt;&#xD;
+    &lt;/TestAncestor&gt;&#xD;
   &lt;/Or&gt;&#xD;
 &lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>
