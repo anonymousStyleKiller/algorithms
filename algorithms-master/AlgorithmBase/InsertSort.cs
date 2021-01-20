@@ -9,14 +9,15 @@ namespace AlgorithmBase
             for (int i = 0; i < Items.Count; i++)
             {
                 var temp = Items[i];
-                while (temp != null && i > 0 && temp.CompareTo(Items[i - 1]) == -1)
+                var j = i;
+                while (temp != null && j > 0 && temp.CompareTo(Items[j - 1]) == -1)
                 {
-                    Items[i] = Items[i - 1];
-                    i--;
+                    Items[j] = Items[j - 1];
+                    j--;
                     SwapCount++;
                     ComparisonCount++;
                 }
-                Items[i] = temp;
+                Items[j] = temp;
             }
         }
     }

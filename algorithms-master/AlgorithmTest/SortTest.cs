@@ -29,6 +29,24 @@ namespace AlgorithmTest
         }
         
         [Test]
+        public void BaseSortTest()
+        {
+            // arrange
+            var bases = new AlgorithmBase<int>();
+            
+            bases.Items.AddRange(Items);
+            
+            // act 
+            bases.Sort();
+            
+            // assert
+            for (int i = 0; i < Items.Count; i++)
+            {
+                Assert.AreEqual(Sorted[i], bases.Items[i]);
+            }
+        }
+        
+        [Test]
         public void BubbleTest()
         {
             // arrange
@@ -81,6 +99,27 @@ namespace AlgorithmTest
                 Assert.AreEqual(Sorted[i], insert.Items[i]);
             }
         }
+        
+        
+        [Test]
+        public void ShellSortTest()
+        {
+            // arrange
+            var sell = new ShellSort<int>();
+            
+            sell.Items.AddRange(Items);
+            
+            // act 
+            sell.Sort();
+            
+            // assert
+            for (int i = 0; i < Items.Count; i++)
+            {
+                Assert.AreEqual(Sorted[i], sell.Items[i]);
+            }
+        }
+        
+
       
     }
 }
