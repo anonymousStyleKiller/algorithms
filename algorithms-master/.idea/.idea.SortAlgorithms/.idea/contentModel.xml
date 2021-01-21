@@ -11,12 +11,17 @@
         <e p="bin" t="ExcludeRecursive" />
         <e p="BubbleSort.cs" t="Include" />
         <e p="CocktailSort.cs" t="Include" />
+        <e p="DataStructures" t="Include">
+          <e p="Node.cs" t="Include" />
+          <e p="Tree.cs" t="Include" />
+        </e>
         <e p="InsertSort.cs" t="Include" />
         <e p="obj" t="ExcludeRecursive" />
         <e p="Properties" t="Include">
           <e p="AssemblyInfo.cs" t="Include" />
         </e>
         <e p="ShellSort.cs" t="Include" />
+        <e p="TreeSort.cs" t="Include" />
       </e>
       <e p="AlgorithmTest" t="IncludeRecursive">
         <e p="AlgorithmTest.csproj" t="IncludeRecursive" />
