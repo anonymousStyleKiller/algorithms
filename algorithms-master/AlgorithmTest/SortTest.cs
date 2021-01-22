@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using AlgorithmBase;
+using AlgorithmBase.DataStructures;
 using NUnit.Framework;
 
 namespace AlgorithmTest
@@ -20,7 +21,7 @@ namespace AlgorithmTest
         public void Init()
         { 
             Items.Clear();
-            for (int i = 0; i < 100; i++)
+            for (int i = 0; i < 10000; i++)
             {
                 Items.Add(rnd.Next(0, 1000));
             }
@@ -154,7 +155,23 @@ namespace AlgorithmTest
                 Assert.AreEqual(Sorted[i], heap.Items[i]);
             }
         }
-
-      
+        
+        [Test]
+        public void SelectionSortTest()
+        {
+            // arrange
+            var selectionSort = new SelectionSort<int>();
+            
+            selectionSort.Items.AddRange(Items);
+            
+            // act 
+            selectionSort.Sort();
+            
+            // assert
+            for (int i = 0; i < Items.Count; i++)
+            {
+                Assert.AreEqual(Sorted[i], selectionSort.Items[i]);
+            }
+        }
     }
 }

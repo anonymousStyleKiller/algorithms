@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4e752e75-fb74-4d6e-a3a6-cc17968e6233" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/AlgorithmBase/DataStructures/Heap.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AlgorithmBase/HeapSort.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AlgorithmBase/SelectionSort.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.SortAlgorithms/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SortAlgorithms/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.SortAlgorithms/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SortAlgorithms/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AlgorithmBase/AlgorithmBase.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/AlgorithmBase/AlgorithmBase.csproj" afterDir="false" />
@@ -40,7 +39,6 @@
       <option value="$PROJECT_DIR$/SortAlgorithms/SortedItem.cs" />
       <option value="$PROJECT_DIR$/SortAlgorithms/Form1.Designer.cs" />
       <option value="$PROJECT_DIR$/SortAlgorithms/Form1.cs" />
-      <option value="$PROJECT_DIR$/AlgorithmBase/AlgorethmBase.cs" />
       <option value="$PROJECT_DIR$/AlgorithmTest/InsertSortTests.cs" />
       <option value="$PROJECT_DIR$/AlgorithmTest/SortTest.,cs.cs" />
       <option value="$PROJECT_DIR$/AlgorithmBase/ShellSort.cs" />
@@ -50,6 +48,11 @@
       <option value="$PROJECT_DIR$/AlgorithmBase/TreeSort.cs" />
       <option value="$PROJECT_DIR$/AlgorithmBase/HeapSort.cs" />
       <option value="$PROJECT_DIR$/AlgorithmBase/DataStructures/Heap.cs" />
+      <option value="$PROJECT_DIR$/AlgorithmBase/12321.cs" />
+      <option value="$PROJECT_DIR$/AlgorithmBase/Selection.cs" />
+      <option value="$PROJECT_DIR$/AlgorithmBase/AlgorethmBase.cs" />
+      <option value="$PROJECT_DIR$/AlgorithmBase/DataStructures/SelectionSort.cs" />
+      <option value="$PROJECT_DIR$/AlgorithmBase/SelectionSort.cs" />
       <option value="$PROJECT_DIR$/AlgorithmTest/SortTest.cs" />
     </changedPaths>
   </component>
@@ -114,7 +117,8 @@
       <workItem from="1611137683609" duration="4237000" />
       <workItem from="1611225040716" duration="5012000" />
       <workItem from="1611240413822" duration="2799000" />
-      <workItem from="1611290655738" duration="2339000" />
+      <workItem from="1611290655738" duration="4952000" />
+      <workItem from="1611301153636" duration="3140000" />
     </task>
     <task id="LOCAL-00001" summary="add vertical progressbar">
       <created>1610300487542</created>
@@ -151,7 +155,14 @@
       <option name="project" value="LOCAL" />
       <updated>1611243829410</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Add Heap Sort">
+      <created>1611293050135</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1611293050135</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -180,6 +191,7 @@
     <MESSAGE value="full deleted UI" />
     <MESSAGE value="Add ShellSort algorithm and add test: Base, Shell" />
     <MESSAGE value="Add sort tree" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add sort tree" />
+    <MESSAGE value="Add Heap Sort" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add Heap Sort" />
   </component>
 </project>
