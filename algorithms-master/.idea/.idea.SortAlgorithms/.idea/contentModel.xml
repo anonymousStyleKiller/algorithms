@@ -12,9 +12,11 @@
         <e p="BubbleSort.cs" t="Include" />
         <e p="CocktailSort.cs" t="Include" />
         <e p="DataStructures" t="Include">
+          <e p="Heap.cs" t="Include" />
           <e p="Node.cs" t="Include" />
           <e p="Tree.cs" t="Include" />
         </e>
+        <e p="HeapSort.cs" t="Include" />
         <e p="InsertSort.cs" t="Include" />
         <e p="obj" t="ExcludeRecursive" />
         <e p="Properties" t="Include">

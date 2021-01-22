@@ -20,7 +20,7 @@ namespace AlgorithmTest
         public void Init()
         { 
             Items.Clear();
-            for (int i = 0; i < 10000; i++)
+            for (int i = 0; i < 100; i++)
             {
                 Items.Add(rnd.Next(0, 1000));
             }
@@ -137,6 +137,23 @@ namespace AlgorithmTest
             }
         }
         
+        [Test]
+        public void HeapSortTest()
+        {
+            // arrange
+            var heap = new HeapSort<int>();
+            
+            heap.Items.AddRange(Items);
+            
+            // act 
+            heap.Sort();
+            
+            // assert
+            for (int i = 0; i < Items.Count; i++)
+            {
+                Assert.AreEqual(Sorted[i], heap.Items[i]);
+            }
+        }
 
       
     }
