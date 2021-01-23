@@ -8,7 +8,7 @@ namespace AlgorithmBase
         {
             var i = 1;
             while (i < Items.Count)
-                if (i == 0 || Items[i].CompareTo(Items[i - 1]) == 1)
+                if (i == 0 || Items[i].CompareTo(Items[i - 1]) != -1)
                 {
                     i++;
                 }

@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4e752e75-fb74-4d6e-a3a6-cc17968e6233" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/AlgorithmBase/GnomeSort.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.SortAlgorithms/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SortAlgorithms/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.SortAlgorithms/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SortAlgorithms/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AlgorithmBase/AlgorithmBase.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/AlgorithmBase/AlgorithmBase.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AlgorithmBase/SelectionSort.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AlgorithmBase/SelectionSort.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AlgorithmBase/bin/Debug/AlgorithmBase.dll" beforeDir="false" afterPath="$PROJECT_DIR$/AlgorithmBase/bin/Debug/AlgorithmBase.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AlgorithmBase/bin/Debug/AlgorithmBase.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/AlgorithmBase/bin/Debug/AlgorithmBase.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AlgorithmBase/obj/Debug/AlgorithmBase.dll" beforeDir="false" afterPath="$PROJECT_DIR$/AlgorithmBase/obj/Debug/AlgorithmBase.dll" afterDir="false" />
@@ -19,6 +15,7 @@
       <change beforePath="$PROJECT_DIR$/AlgorithmTest/obj/Debug/AlgorithmTest.csprojResolveAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/AlgorithmTest/obj/Debug/AlgorithmTest.csprojResolveAssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AlgorithmTest/obj/Debug/AlgorithmTest.dll" beforeDir="false" afterPath="$PROJECT_DIR$/AlgorithmTest/obj/Debug/AlgorithmTest.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AlgorithmTest/obj/Debug/AlgorithmTest.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/AlgorithmTest/obj/Debug/AlgorithmTest.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SortAlgorithms.sln.DotSettings.user" beforeDir="false" afterPath="$PROJECT_DIR$/SortAlgorithms.sln.DotSettings.user" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,8 +51,8 @@
       <option value="$PROJECT_DIR$/AlgorithmBase/AlgorethmBase.cs" />
       <option value="$PROJECT_DIR$/AlgorithmBase/DataStructures/SelectionSort.cs" />
       <option value="$PROJECT_DIR$/AlgorithmTest/GnomeSort.cs" />
-      <option value="$PROJECT_DIR$/AlgorithmBase/GnomeSort.cs" />
       <option value="$PROJECT_DIR$/AlgorithmBase/SelectionSort.cs" />
+      <option value="$PROJECT_DIR$/AlgorithmBase/GnomeSort.cs" />
       <option value="$PROJECT_DIR$/AlgorithmTest/SortTest.cs" />
     </changedPaths>
   </component>
@@ -123,6 +120,9 @@
       <workItem from="1611290655738" duration="4952000" />
       <workItem from="1611301153636" duration="3600000" />
       <workItem from="1611398225425" duration="3522000" />
+      <workItem from="1611406330325" duration="1251000" />
+      <workItem from="1611408111329" duration="210000" />
+      <workItem from="1611414165884" duration="1088000" />
     </task>
     <task id="LOCAL-00001" summary="add vertical progressbar">
       <created>1610300487542</created>
@@ -173,7 +173,14 @@
       <option name="project" value="LOCAL" />
       <updated>1611304383843</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Add Gnome Test">
+      <created>1611406595608</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1611406595608</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -204,6 +211,7 @@
     <MESSAGE value="Add sort tree" />
     <MESSAGE value="Add Heap Sort" />
     <MESSAGE value="Add Selection Sort" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add Selection Sort" />
+    <MESSAGE value="Add Gnome Test" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add Gnome Test" />
   </component>
 </project>
