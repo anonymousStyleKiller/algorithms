@@ -13,7 +13,7 @@ namespace AlgorithmBase.DataStructures
                 minIndex = i;
                 for (int j = i + 1; j < Items.Count; j++)
                 {
-                    if (Items[j].CompareTo(Items[minIndex])==-1)
+                    if (Items[j].CompareTo(Items[minIndex]) == -1)
                     {
                         minIndex = j;
                     }

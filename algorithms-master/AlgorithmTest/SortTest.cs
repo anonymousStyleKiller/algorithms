@@ -10,9 +10,9 @@ namespace AlgorithmTest
     [TestFixture]
     public class SortTests
     {
-        Random rnd = new Random();
+        private readonly Random _random = new Random();
         private List<int> Items = new List<int>();
-        List<int> Sorted = new List<int>();
+        private List<int> Sorted = new List<int>();
         
         /// <summary>
         /// SetUp При запуске каждый раз по новой инициализирует
@@ -21,9 +21,9 @@ namespace AlgorithmTest
         public void Init()
         { 
             Items.Clear();
-            for (int i = 0; i < 10000; i++)
+            for (var i = 0; i < 100; i++)
             {
-                Items.Add(rnd.Next(0, 1000));
+                Items.Add(_random.Next(0, 1000));
             }
             Sorted.Clear();
             Sorted.AddRange(Items.OrderBy(x => x).ToArray());
@@ -41,7 +41,7 @@ namespace AlgorithmTest
             bases.Sort();
             
             // assert
-            for (int i = 0; i < Items.Count; i++)
+            for (var i = 0; i < Items.Count; i++)
             {
                 Assert.AreEqual(Sorted[i], bases.Items[i]);
             }
@@ -59,7 +59,7 @@ namespace AlgorithmTest
             bubble.Sort();
             
             // assert
-            for (int i = 0; i < Items.Count; i++)
+            for (var i = 0; i < Items.Count; i++)
             {
                 Assert.AreEqual(Sorted[i], bubble.Items[i]);
             }
@@ -171,6 +171,24 @@ namespace AlgorithmTest
             for (int i = 0; i < Items.Count; i++)
             {
                 Assert.AreEqual(Sorted[i], selectionSort.Items[i]);
+            }
+        }
+        
+        [Test]
+        public void GnomeSortTest()
+        {
+            // arrange
+            var gnomeSort = new GnomeSort<int>();
+            
+            gnomeSort.Items.AddRange(Items);
+            
+            // act 
+            gnomeSort.Sort();
+            
+            // assert
+            for (int i = 0; i < Items.Count; i++)
+            {
+                Assert.AreEqual(Sorted[i], gnomeSort.Items[i]);
             }
         }
     }

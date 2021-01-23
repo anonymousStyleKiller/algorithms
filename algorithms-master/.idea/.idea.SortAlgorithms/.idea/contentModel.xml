@@ -16,6 +16,7 @@
           <e p="Node.cs" t="Include" />
           <e p="Tree.cs" t="Include" />
         </e>
+        <e p="GnomeSort.cs" t="Include" />
         <e p="HeapSort.cs" t="Include" />
         <e p="InsertSort.cs" t="Include" />
         <e p="obj" t="ExcludeRecursive" />
