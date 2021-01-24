@@ -21,7 +21,7 @@ namespace AlgorithmTest
         public void Init()
         { 
             Items.Clear();
-            for (var i = 0; i < 100; i++)
+            for (var i = 0; i < 10000; i++)
             {
                 Items.Add(_random.Next(0, 1000));
             }
@@ -189,6 +189,24 @@ namespace AlgorithmTest
             for (int i = 0; i < Items.Count; i++)
             {
                 Assert.AreEqual(Sorted[i], gnomeSort.Items[i]);
+            }
+        }
+        
+        [Test]
+        public void RedixSortTest()
+        {
+            // arrange
+            var redixSort = new RedixSort<int>();
+            
+            redixSort.Items.AddRange(Items);
+            
+            // act 
+            redixSort.Sort();
+            
+            // assert
+            for (int i = 0; i < Items.Count; i++)
+            {
+                Assert.AreEqual(Sorted[i], redixSort.Items[i]);
             }
         }
     }
