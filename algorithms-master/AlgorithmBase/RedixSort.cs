@@ -4,7 +4,7 @@ using System.Linq;
 
 namespace AlgorithmBase
 {
-    public class RedixSort<T> : AlgorithmBase<T> where T : IComparable
+    public class LSDRedixSort<T> : AlgorithmBase<T> where T : IComparable
     {
         protected override void MakeSort()
         {
