@@ -1,7 +1,6 @@
 using System;
-using System.Collections.Generic;
 
-namespace AlgorithmBase.DataStructures
+namespace AlgorithmBase
 {
     public class SelectionSort<T> : AlgorithmBase<T> where T : IComparable
     {

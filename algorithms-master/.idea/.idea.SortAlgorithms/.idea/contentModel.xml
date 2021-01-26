@@ -19,6 +19,7 @@
         <e p="GnomeSort.cs" t="Include" />
         <e p="HeapSort.cs" t="Include" />
         <e p="InsertSort.cs" t="Include" />
+        <e p="MergeSort.cs" t="Include" />
         <e p="obj" t="ExcludeRecursive" />
         <e p="Properties" t="Include">
           <e p="AssemblyInfo.cs" t="Include" />
