@@ -21,7 +21,7 @@ namespace AlgorithmTest
         public void Init()
         { 
             Items.Clear();
-            for (var i = 0; i < 10000; i++)
+            for (var i = 0; i < 10; i++)
             {
                 Items.Add(_random.Next(0, 1000));
             }
@@ -225,6 +225,24 @@ namespace AlgorithmTest
             for (int i = 0; i < Items.Count; i++)
             {
                 Assert.AreEqual(Sorted[i], mergeSort.Items[i]);
+            }
+        }
+        
+        [Test]
+        public void QuickSortTest()
+        {
+            // arrange
+            var quickSort = new QuickSort<int>();
+            
+            quickSort.Items.AddRange(Items);
+            
+            // act 
+            quickSort.Sort();
+            
+            // assert
+            for (int i = 0; i < Items.Count; i++)
+            {
+                Assert.AreEqual(Sorted[i], quickSort.Items[i]);
             }
         }
     }
